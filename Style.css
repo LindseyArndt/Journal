@@ -68,11 +68,11 @@ e1{
   height: 40%;
   width: 1000px;
   position:static;
-  z-index: 1;
+  z-index:auto;
   top: 0;
   left: 0;
   background-color: #FFFFFF;
-  overflow-x:auto;
+  overflow-x:visible;
   padding-top: 10px;
   margin-top: 10px;
   text-align:left;
@@ -80,10 +80,10 @@ e1{
 
 .sidenav a {
   padding:none;
-  text-decoration: none;
+  text-decoration:inherit;
   font-size: 20px;
   color: #000000;
-  display: block;
+  display:subgrid;
 }
 
 .sidenav a:hover {
